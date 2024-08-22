@@ -1,0 +1,9 @@
+package vacuna;
+
+public class TestVacuna {
+
+	
+	public static void main(String[] args) {
+		
+	}
+}
