@@ -1,0 +1,9 @@
+package vacuna;
+
+public class VacunaGenetica {
+
+	public VacunaGenetica() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

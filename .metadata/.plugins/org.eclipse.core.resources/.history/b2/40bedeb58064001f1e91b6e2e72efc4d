@@ -1,0 +1,6 @@
+package vacuna;
+
+public class VacunaGenetica extends Vacuna {
+	private float tempMinima;
+	
+}

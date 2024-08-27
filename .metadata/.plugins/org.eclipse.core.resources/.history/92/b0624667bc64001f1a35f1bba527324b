@@ -1,0 +1,20 @@
+package geometria;
+
+import java.util.List;
+
+public class Paint {
+	private List<FiguraGeometrica> paleta;
+
+	public Paint() {
+		// TODO Auto-generated constructor stub
+	}
+
+	void init() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setPaleta(List<FiguraGeometrica> paleta) {
+		this.paleta = paleta;
+	}
+
+}

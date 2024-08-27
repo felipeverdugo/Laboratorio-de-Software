@@ -1,0 +1,9 @@
+package griego;
+
+public class Alpha {
+	int x;
+
+	void otroMetodoA() {
+		System.out.println("Un método paquete");
+	}
+}

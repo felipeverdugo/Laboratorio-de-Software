@@ -1,0 +1,15 @@
+package vacuna;
+
+public class VacunaSubunidadAntigenica extends Vacuna {
+
+	private int cantAntigenos;
+	private String tipoDeProceso;
+
+	public VacunaSubunidadAntigenica(String marca, String paisOrigen, String enfermedad, int cantDosis,
+			int cantAntigenos, String tipoDeProceso) {
+		super(marca, paisOrigen, enfermedad, cantDosis);
+		this.cantAntigenos = cantAntigenos;
+		this.tipoDeProceso = tipoDeProceso;
+	}
+
+}

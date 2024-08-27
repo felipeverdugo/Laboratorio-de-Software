@@ -1,0 +1,9 @@
+package laboratorio;
+
+public class PoolConexiones {
+	private static PoolConexiones instancePoolConexiones;
+
+	private PoolConexiones() {
+		// TODO Auto-generated constructor stub
+	}
+}

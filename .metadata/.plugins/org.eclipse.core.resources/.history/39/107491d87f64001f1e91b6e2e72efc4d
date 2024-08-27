@@ -1,0 +1,11 @@
+package vacuna;
+
+public class VacunaPatogenoIntegro extends Vacuna {
+	private String nombreVirus;
+
+	public VacunaPatogenoIntegro() {
+
+		// TODO Auto-generated constructor stub
+	}
+
+}
