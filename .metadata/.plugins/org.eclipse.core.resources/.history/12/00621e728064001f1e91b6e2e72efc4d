@@ -1,7 +1,0 @@
-package vacuna;
-
-public class VacunaSubunidadAntigenica extends Vacuna {
-	private int cantAntigenos;
-	private String tipoDeProceso;
-
-}

@@ -1,1 +1,16 @@
+# Ignorar la carpeta de metadatos de Eclipse
 .metadata/
+
+# Ignorar configuraciones de proyectos de Eclipse
+*.classpath
+*.project
+*.settings/
+
+# Ignorar archivos específicos de Eclipse en la carpeta del proyecto
+**/.classpath
+**/.project
+**/.settings/
+
+# Ignorar otros archivos de Eclipse
+**/.launch
+**/.plugins/

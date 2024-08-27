@@ -1,9 +1,0 @@
-package vacuna;
-
-public class VacunaPatogenoIntegro extends Vacuna {
-
-	public VacunaPatogenoIntegro() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
