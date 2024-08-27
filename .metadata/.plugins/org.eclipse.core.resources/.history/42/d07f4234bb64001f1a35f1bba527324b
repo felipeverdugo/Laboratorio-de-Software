@@ -1,0 +1,8 @@
+package geometria;
+
+public abstract class FiguraGeometrica {
+	private String color;
+		
+	
+	
+}

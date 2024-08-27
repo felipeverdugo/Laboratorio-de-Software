@@ -1,0 +1,17 @@
+package vacuna;
+
+public class VacunaPatogenoIntegro extends Vacuna {
+	private String nombreVirus;
+	
+	
+	public VacunaPatogenoIntegro(String marca, String paisOrigen, String enfermedad, int cantDosis) {
+		super(marca, paisOrigen, enfermedad, cantDosis);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	
+	
+	
+}

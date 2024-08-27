@@ -1,0 +1,5 @@
+package geometria;
+
+public abstract class FiguraGeometrica {
+
+}

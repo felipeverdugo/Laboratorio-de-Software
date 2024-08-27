@@ -1,0 +1,8 @@
+package vacuna;
+
+public class VacunaPatogenoIntegro extends Vacuna {
+	private String nombreVirus;
+
+
+
+}

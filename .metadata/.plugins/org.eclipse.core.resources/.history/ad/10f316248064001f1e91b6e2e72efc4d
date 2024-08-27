@@ -1,0 +1,9 @@
+package vacuna;
+
+public class VacunaSubunidadAntigenica {
+
+	public VacunaSubunidadAntigenica() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

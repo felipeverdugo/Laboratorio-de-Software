@@ -1,0 +1,9 @@
+package laboratorio;
+
+public class Dialoguito {
+
+	public Dialoguito() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

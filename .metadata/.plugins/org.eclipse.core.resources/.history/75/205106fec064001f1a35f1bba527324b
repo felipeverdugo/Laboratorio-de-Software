@@ -1,0 +1,19 @@
+package geometria;
+
+public class PaintTest {
+
+	public static void main(String[] args) {
+		Paint paint = new Paint();
+		paint.init();
+
+		for (FiguraGeometrica figuraGeometrica : paint.getPaleta()) {
+//			figuraGeometrica.dibujar();
+			System.out.println(
+					"El area del " + figuraGeometrica.getClass().getSimpleName() + " es " + figuraGeometrica.area());
+			if (figuraGeometrica.getClass().getSimpleName().equals("Circulo")) {
+				System.out.println("El radio del circulo es " );
+			}
+		}
+	}
+
+}

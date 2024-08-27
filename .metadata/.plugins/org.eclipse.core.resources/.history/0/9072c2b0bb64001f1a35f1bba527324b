@@ -1,0 +1,18 @@
+package geometria;
+
+public class Rectangulo extends FiguraGeometrica {
+	int alto;
+	int ancho;
+	
+	public Rectangulo() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Rectangulo(int alto, int ancho) {
+		super();
+		this.alto = alto;
+		this.ancho = ancho;
+	}
+	
+	
+}
