@@ -38,7 +38,8 @@ public class TestVacuna {
 //		System.out.println(vacuna1 == vacunaNEQ);
 
 		// Crear instancias de cada clase
-		VacunaPatogenoIntegro vacuna1 = new VacunaPatogenoIntegro("VacunaA", "Grecia", "COVID-19", 2, "Virus COVID-19");
+		VacunaPatogenoIntegro vacuna1 = new VacunaPatogenoIntegro("VacunaA", "Grecia", "COVID-19",
+				"Virus COVID-19",2 );
 		VacunaSubunidadAntigenica vacuna2 = new VacunaSubunidadAntigenica("VacunaB", "España", "Gripe", 1, 3,
 				"Proceso de purificación");
 		VacunaGenetica vacuna3 = new VacunaGenetica("VacunaC", "Italia", "Hepatitis B", 3, -20.0, -15.0);

@@ -1,5 +1,8 @@
 # Ignorar la carpeta de metadatos de Eclipse
 .metadata/
+out/
+.idea/
+
 
 # Ignorar configuraciones de proyectos de Eclipse
 *.classpath
