@@ -1,15 +1,15 @@
 package laboratorio;
 
-import robocode.JuniorRobot;
+
 
 public interface StrategyJuniorRobot {
 
-	void run(JuniorRobot aJuniorRobot);
+	void run(Blitzcrank aJuniorRobot);
 
-	void onHitWall(JuniorRobot aJuniorRobot);
+	void onHitWall(Blitzcrank aJuniorRobot);
 
-	void onHitByBullet(JuniorRobot aJuniorRobot);
+	void onHitByBullet(Blitzcrank aJuniorRobot);
 
-	void onScannedRobot(JuniorRobot aJuniorRobot);
+	void onScannedRobot(Blitzcrank aJuniorRobot);
 
 }

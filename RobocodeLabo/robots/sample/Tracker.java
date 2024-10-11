@@ -12,9 +12,10 @@ import robocode.HitRobotEvent;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
 import robocode.WinEvent;
-import static robocode.util.Utils.normalRelativeAngleDegrees;
 
 import java.awt.*;
+
+import static robocode.util.Utils.normalRelativeAngleDegrees;
 
 
 /**
