@@ -29,16 +29,15 @@ public class Materia {
 	public static void main(String[] args) {
 		Materia matematica = new Materia("Matemáticas");
 
-		Alumno alumno1 = new Alumno(12345678, 1001, "Juan", "Pérez");
-		Alumno alumno2 = new Alumno(87654321, 1002, "Ana", "Gómez");
-		Alumno alumno3 = new Alumno(23456789, 1003, "Carlos", "Martínez");
-		Alumno alumno4 = new Alumno(98765432, 1004, "Laura", "Fernández");
-		Alumno alumno5 = new Alumno(34567890, 1005, "Sofía", "López");
-		Alumno alumno6 = new Alumno(87654322, 1006, "Jorge", "Ramírez");
-		Alumno alumno7 = new Alumno(45678901, 1007, "María", "Sánchez");
-		Alumno alumno8 = new Alumno(76543219, 1008, "Ricardo", "Mendoza");
-		Alumno alumno9 = new Alumno(56789012, 1009, "Valeria", "García");
-		Alumno alumno10 = new Alumno(65432198, 1010, "Lucía", "Jiménez");
+		Alumno alumno1 = new Alumno(12345678, "Juan", "Pérez", 21, 1001, "Matemáticas", 9.0);
+		Alumno alumno2 = new Alumno(87654321, "Ana", "Gómez", 22, 1002, "Física", 8.5);
+		Alumno alumno3 = new Alumno(11223344, "Pedro", "García", 23, 1003, "Química", 7.5);
+		Alumno alumno4 = new Alumno(22334455, "María", "López", 20, 1004, "Biología", 6.8);
+		Alumno alumno5 = new Alumno(33445566, "Sofía", "Rodríguez", 24, 1005, "Historia", 9.5);
+		Alumno alumno6 = new Alumno(44556677, "Lucas", "Martínez", 19, 1006, "Geografía", 7.2);
+		Alumno alumno7 = new Alumno(55667788, "Carla", "Fernández", 25, 1007, "Filosofía", 8.3);
+		Alumno alumno8 = new Alumno(66778899, "Miguel", "Díaz", 21, 1008, "Literatura", 7.0);
+		Alumno alumno9 = new Alumno(77889900, "Lucía", "Ramírez", 22, 1009, "Inglés", 6.9);
 
 		matematica.agregarPersona(alumno1);
 		matematica.agregarPersona(alumno2);
@@ -49,7 +48,7 @@ public class Materia {
 		matematica.agregarPersona(alumno7);
 		matematica.agregarPersona(alumno8);
 		matematica.agregarPersona(alumno9);
-		matematica.agregarPersona(alumno10);
+		;
 
 		List<Persona> listaAlumnos = matematica.getNomina();
 
