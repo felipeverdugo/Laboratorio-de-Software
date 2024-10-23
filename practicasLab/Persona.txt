@@ -1,0 +1,5 @@
+Clase: Persona
+nombre: Juan
+edad: 25
+dni: 12345678
+sexo: M
