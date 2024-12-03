@@ -10,9 +10,20 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewItem"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp" />
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="Compartir"
+        android:src="@android:drawable/ic_menu_share" />
 
 
 </FrameLayout>

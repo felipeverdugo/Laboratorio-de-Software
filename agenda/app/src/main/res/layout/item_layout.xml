@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
 
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivItem_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_other"
+            android:contentDescription="@android:string/copyUrl"/>
+
 
         <TextView
-            android:id="@+id/item_title"
+            android:id="@+id/tvItemTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Título"
-            android:paddingRight="12dp"
-            android:paddingStart="30dp"
+            android:text="@android:string/unknownName"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/item_type"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:text="Tipo"
-            android:paddingStart="8dp" />
+
+
     </LinearLayout>
 
-</FrameLayout>
